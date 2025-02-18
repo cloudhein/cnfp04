@@ -10,5 +10,6 @@ terraform {
 # dev account
 provider "aws" {
   profile = "terraform-dev-role"
+  region= "ap-southeast-1"
 }
 
